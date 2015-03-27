@@ -143,7 +143,7 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
-        <artifactId>vertx-metrics</artifactId>
+        <artifactId>vertx-dropwizard-metrics</artifactId>
         <version>${vertx.version}</version>
       </dependency>
       <dependency>
