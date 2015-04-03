@@ -196,6 +196,11 @@
         <artifactId>vertx-mail-service</artifactId>
         <version>${vertx.version}</version>
       </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-mysql-postgresql-service</artifactId>
+        <version>${vertx.version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 
