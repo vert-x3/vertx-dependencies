@@ -238,6 +238,30 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
+        <artifactId>vertx-web-templ-thymeleaf</artifactId>
+        <version>${vertx.version}</version>
+        <classifier>shaded</classifier>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-web-templ-handlebars</artifactId>
+        <version>${vertx.version}</version>
+        <classifier>shaded</classifier>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-web-templ-jade</artifactId>
+        <version>${vertx.version}</version>
+        <classifier>shaded</classifier>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-web-templ-mvel</artifactId>
+        <version>${vertx.version}</version>
+        <classifier>shaded</classifier>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
         <artifactId>vertx-jca</artifactId>
         <version>${vertx.version}</version>
       </dependency>
