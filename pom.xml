@@ -305,6 +305,11 @@
         <artifactId>vertx-stomp</artifactId>
         <version>${vertx.version}</version>
       </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-shell</artifactId>
+        <version>${vertx.version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 
