@@ -330,6 +330,11 @@
         <artifactId>vertx-tcp-eventbus-bridge</artifactId>
         <version>${vertx.version}</version>
       </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-bridge-common</artifactId>
+        <version>${vertx.version}</version>
+      </dependency>
 <!--
       <dependency>
         <groupId>io.vertx</groupId>
