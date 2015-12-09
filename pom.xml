@@ -340,13 +340,11 @@
         <artifactId>vertx-bridge-common</artifactId>
         <version>${vertx.version}</version>
       </dependency>
-<!--
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-jgroups</artifactId>
         <version>${vertx.version}</version>
       </dependency>
--->
     </dependencies>
   </dependencyManagement>
 
