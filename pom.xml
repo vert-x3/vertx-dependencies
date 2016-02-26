@@ -365,6 +365,11 @@
         <artifactId>vertx-mysql-postgresql-client</artifactId>
         <version>${vertx.version}</version>
       </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-camel-bridge</artifactId>
+        <version>${vertx.version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 
