@@ -375,6 +375,33 @@
         <artifactId>vertx-ignite</artifactId>
         <version>${vertx.version}</version>
       </dependency>
+
+      <!-- microservice toolbox -->
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-discovery-service</artifactId>
+        <version>${vertx.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-circuit-breaker</artifactId>
+        <version>${vertx.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-discovery-bridge-kubernetes</artifactId>
+        <version>${vertx.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-discovery-bridge-docker</artifactId>
+        <version>${vertx.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-discovery-backend-redis</artifactId>
+        <version>${vertx.version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 
