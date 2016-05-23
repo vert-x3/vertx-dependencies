@@ -399,6 +399,16 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
+        <artifactId>vertx-discovery-bridge-docker-links</artifactId>
+        <version>${vertx.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-discovery-bridge-consul</artifactId>
+        <version>${vertx.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
         <artifactId>vertx-discovery-backend-redis</artifactId>
         <version>${vertx.version}</version>
       </dependency>
