@@ -381,7 +381,7 @@
         <version>${vertx.version}</version>
       </dependency>
 
-      <!-- microservice toolbox -->
+      <!-- microservices -->
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-circuit-breaker</artifactId>
