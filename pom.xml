@@ -380,6 +380,16 @@
         <artifactId>vertx-rabbitmq-client</artifactId>
         <version>${vertx.version}</version>
       </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-proton</artifactId>
+        <version>${vertx.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-amqp-bridge</artifactId>
+        <version>${vertx.version}</version>
+      </dependency>
 
       <!-- microservices -->
       <dependency>
