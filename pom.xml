@@ -492,6 +492,11 @@
         <artifactId>vertx-service-discovery-backend-redis</artifactId>
         <version>${stack.version}</version>
       </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-mqtt-server</artifactId>
+        <version>${stack.version}</version>
+      </dependency>
 
       <!-- Netty -->
       <dependency>
