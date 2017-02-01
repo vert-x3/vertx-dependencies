@@ -21,3 +21,4 @@ test-tmp
 *.class
 *.swp
 .vertx
+.vscode
