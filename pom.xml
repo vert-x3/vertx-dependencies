@@ -422,7 +422,7 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
-        <artifactId>vertx-jgroups</artifactId>
+        <artifactId>vertx-infinispan</artifactId>
         <version>${stack.version}</version>
       </dependency>
       <dependency>
