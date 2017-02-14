@@ -465,7 +465,12 @@
         <artifactId>vertx-amqp-bridge</artifactId>
         <version>${stack.version}</version>
       </dependency>
-
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-kafka-client</artifactId>
+        <version>${stack.version}</version>
+      </dependency>
+      
       <!-- microservices -->
       <dependency>
         <groupId>io.vertx</groupId>
