@@ -34,6 +34,12 @@
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-codegen</artifactId>
+        <classifier>processor</classifier>
+        <version>${stack.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-codegen</artifactId>
         <type>jar</type>
         <classifier>sources</classifier>
         <version>${stack.version}</version>
@@ -187,6 +193,12 @@
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-service-proxy</artifactId>
+        <version>${stack.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-service-proxy</artifactId>
+        <classifier>processor</classifier>
         <version>${stack.version}</version>
       </dependency>
       <dependency>
