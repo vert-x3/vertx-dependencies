@@ -233,6 +233,11 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
+        <artifactId>vertx-health-check</artifactId>
+        <version>${stack.version}</version>
+    </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
         <artifactId>vertx-rx</artifactId>
         <version>${stack.version}</version>
       </dependency>
@@ -487,7 +492,7 @@
         <artifactId>vertx-kafka-client</artifactId>
         <version>${stack.version}</version>
       </dependency>
-      
+
       <!-- microservices -->
       <dependency>
         <groupId>io.vertx</groupId>
@@ -579,7 +584,7 @@
         <artifactId>vertx-grpc</artifactId>
         <version>${stack.version}</version>
       </dependency>
-      
+
       <!-- IOT -->
       <dependency>
         <groupId>io.vertx</groupId>
