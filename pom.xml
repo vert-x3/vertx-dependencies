@@ -593,7 +593,7 @@
       <!-- IOT -->
       <dependency>
         <groupId>io.vertx</groupId>
-        <artifactId>vertx-mqtt-server</artifactId>
+        <artifactId>vertx-mqtt</artifactId>
         <version>${stack.version}</version>
       </dependency>
 
