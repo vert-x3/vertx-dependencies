@@ -10,7 +10,7 @@
   ~      http://www.eclipse.org/legal/epl-v10.html
   ~
   ~      The Apache License v2.0 is available at
-  ~      http://www.apache.org/licenses/LICENSE-2.0.txt
+  ~      http://www.apache.org/licenses/LICENSE-2.0
   ~
   ~  You may elect to redistribute this code under either of these licenses.
   -->
@@ -36,7 +36,7 @@
   <licenses>
     <license>
       <name>The Apache Software License, Version 2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
       <distribution>repo</distribution>
     </license>
     <license>
