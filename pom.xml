@@ -650,6 +650,16 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
+        <artifactId>vertx-config-vault</artifactId>
+        <version>${stack.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-config-consul</artifactId>
+        <version>${stack.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
         <artifactId>vertx-grpc</artifactId>
         <version>${stack.version}</version>
       </dependency>
