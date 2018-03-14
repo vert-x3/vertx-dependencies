@@ -267,14 +267,9 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
-        <artifactId>vertx-hawkular-metrics</artifactId>
-        <version>${stack.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
         <artifactId>vertx-health-check</artifactId>
         <version>${stack.version}</version>
-    </dependency>
+      </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-rx</artifactId>
