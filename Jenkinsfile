@@ -13,12 +13,8 @@ pipeline {
       }
       steps {
         sh 'mvn -U -B -Dsurefire.reportNameSuffix=OracleJDK_8 clean deploy -s $MAVEN_SETTINGS_PATH'
-        build job: "/vert.x3-core-pipeline/${env.BRANCH_NAME}", wait: false
       }
       post {
-        always {
-          junit '**/target/surefire-reports/*.xml'
-        }
         failure {
           mail to:'vertx3-ci@googlegroups.com', subject:"Job '${env.JOB_NAME}' (${env.BUILD_NUMBER})", body: "Please go to ${env.BUILD_URL}."
         }
@@ -33,11 +29,6 @@ pipeline {
       }
       steps {
         sh 'mvn -U -B -fn -Dsurefire.reportNameSuffix=OracleJDK_latest clean test'
-      }
-      post {
-        always {
-          junit '**/target/surefire-reports/*.xml'
-        }
       }
     }
   }
