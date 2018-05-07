@@ -191,6 +191,12 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
+        <artifactId>vertx-consul-client</artifactId>
+        <type>test-jar</type>
+        <version>${stack.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
         <artifactId>vertx-consul-service</artifactId>
         <version>${stack.version}</version>
       </dependency>
@@ -207,6 +213,12 @@
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-mongo-client</artifactId>
+        <version>${stack.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-mongo-client</artifactId>
+        <type>test-jar</type>
         <version>${stack.version}</version>
       </dependency>
       <dependency>
@@ -464,6 +476,12 @@
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-mail-client</artifactId>
+        <version>${stack.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-mail-client</artifactId>
+        <type>test-jar</type>
         <version>${stack.version}</version>
       </dependency>
       <dependency>
