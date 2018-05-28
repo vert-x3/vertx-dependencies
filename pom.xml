@@ -28,7 +28,7 @@
 
   <groupId>io.vertx</groupId>
   <artifactId>vertx-dependencies</artifactId>
-  <version>3.5.2-SNAPSHOT</version>
+  <version>3.5.2.CR3</version>
 
   <name>Vert.x Stack - Vert.x components versions</name>
   <packaging>pom</packaging>
@@ -47,7 +47,7 @@
   </licenses>
 
   <properties>
-    <stack.version>3.5.2-SNAPSHOT</stack.version>
+    <stack.version>3.5.2.CR3</stack.version>
     <netty.version>4.1.19.Final</netty.version>
     <jackson.version>2.9.5</jackson.version>
     <tcnative.version>2.0.7.Final</tcnative.version>
