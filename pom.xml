@@ -48,9 +48,9 @@
 
   <properties>
     <stack.version>3.6.0-SNAPSHOT</stack.version>
-    <netty.version>4.1.22.Final</netty.version>
+    <netty.version>4.1.25.Final</netty.version>
     <jackson.version>2.9.5</jackson.version>
-    <tcnative.version>2.0.7.Final</tcnative.version>
+    <tcnative.version>2.0.8.Final</tcnative.version>
   </properties>
 
   <dependencyManagement>
