@@ -280,6 +280,7 @@
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-rx</artifactId>
+        <type>pom</type>
         <version>${stack.version}</version>
       </dependency>
       <dependency>
@@ -305,6 +306,7 @@
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-auth</artifactId>
+        <type>pom</type>
         <version>${stack.version}</version>
       </dependency>
       <dependency>
@@ -350,6 +352,7 @@
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-parent</artifactId>
+        <type>pom</type>
         <version>${stack.version}</version>
       </dependency>
       <dependency>
@@ -589,6 +592,7 @@
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-service-discovery-parent</artifactId>
+        <type>pom</type>
         <version>${stack.version}</version>
       </dependency>
       <dependency>
@@ -634,6 +638,7 @@
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-config-parent</artifactId>
+        <type>pom</type>
         <version>${stack.version}</version>
       </dependency>
       <dependency>
