@@ -141,16 +141,6 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
-        <artifactId>vertx-lang-ceylon-parent</artifactId>
-        <version>${stack.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
-        <artifactId>vertx-lang-ceylon</artifactId>
-        <version>${stack.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
         <artifactId>vertx-lang-kotlin-parent</artifactId>
         <version>${stack.version}</version>
       </dependency>
