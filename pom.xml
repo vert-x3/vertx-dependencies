@@ -372,6 +372,11 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
+        <artifactId>vertx-web-api-service</artifactId>
+        <version>${stack.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
         <artifactId>vertx-web-templ-thymeleaf</artifactId>
         <version>${stack.version}</version>
       </dependency>
