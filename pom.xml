@@ -83,6 +83,12 @@
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-codegen</artifactId>
+        <type>test-jar</type>
+        <version>${stack.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-codegen</artifactId>
         <type>jar</type>
         <classifier>tck-sources</classifier>
         <version>${stack.version}</version>
