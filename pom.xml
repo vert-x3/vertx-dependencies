@@ -383,6 +383,13 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
+        <artifactId>vertx-web</artifactId>
+        <classifier>client</classifier>
+        <type>js</type>
+        <version>${stack.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
         <artifactId>vertx-web-common</artifactId>
         <version>${stack.version}</version>
       </dependency>
