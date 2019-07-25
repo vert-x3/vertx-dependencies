@@ -394,6 +394,12 @@
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web</artifactId>
+        <type>test-jar</type>
+        <version>${stack.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-web</artifactId>
         <classifier>client</classifier>
         <type>js</type>
         <version>${stack.version}</version>
@@ -446,6 +452,12 @@
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-templ-freemarker</artifactId>
+        <version>${stack.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-web-templ-freemarker</artifactId>
+        <type>test-jar</type>
         <version>${stack.version}</version>
       </dependency>
       <dependency>
