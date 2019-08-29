@@ -134,6 +134,7 @@
         <groupId>io.vertx</groupId>
         <artifactId>vertx-lang-js-parent</artifactId>
         <version>${stack.version}</version>
+        <type>pom</type>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
@@ -144,6 +145,7 @@
         <groupId>io.vertx</groupId>
         <artifactId>vertx-lang-groovy-parent</artifactId>
         <version>${stack.version}</version>
+        <type>pom</type>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
@@ -154,6 +156,7 @@
         <groupId>io.vertx</groupId>
         <artifactId>vertx-lang-ruby-parent</artifactId>
         <version>${stack.version}</version>
+        <type>pom</type>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
@@ -164,6 +167,7 @@
         <groupId>io.vertx</groupId>
         <artifactId>vertx-lang-kotlin-parent</artifactId>
         <version>${stack.version}</version>
+        <type>pom</type>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
@@ -189,6 +193,7 @@
         <groupId>io.vertx</groupId>
         <artifactId>vertx-junit5-parent</artifactId>
         <version>${stack.version}</version>
+        <type>pom</type>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
@@ -198,11 +203,6 @@
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-junit5-web-client</artifactId>
-        <version>${stack.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
-        <artifactId>vertx-consul</artifactId>
         <version>${stack.version}</version>
       </dependency>
       <dependency>
@@ -219,11 +219,6 @@
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-mongo-embedded-db</artifactId>
-        <version>${stack.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
-        <artifactId>vertx-mongo</artifactId>
         <version>${stack.version}</version>
       </dependency>
       <dependency>
@@ -271,11 +266,6 @@
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-service-factory</artifactId>
-        <version>${stack.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
-        <artifactId>vertx-maven-service-factory-parent</artifactId>
         <version>${stack.version}</version>
       </dependency>
       <dependency>
@@ -503,6 +493,7 @@
         <groupId>io.vertx</groupId>
         <artifactId>vertx-jca</artifactId>
         <version>${stack.version}</version>
+        <type>pom</type>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
@@ -512,11 +503,6 @@
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-jca-adapter</artifactId>
-        <version>${stack.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
-        <artifactId>vertx-mail</artifactId>
         <version>${stack.version}</version>
       </dependency>
       <dependency>
@@ -562,11 +548,6 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
-        <artifactId>vertx-jgroups</artifactId>
-        <version>${stack.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
         <artifactId>vertx-infinispan</artifactId>
         <version>${stack.version}</version>
       </dependency>
@@ -574,6 +555,7 @@
         <groupId>io.vertx</groupId>
         <artifactId>vertx-sql-client-parent</artifactId>
         <version>${stack.version}</version>
+        <type>pom</type>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
@@ -605,6 +587,7 @@
         <groupId>io.vertx</groupId>
         <artifactId>vertx-mysql-postgresql-client-parent</artifactId>
         <version>${stack.version}</version>
+        <type>pom</type>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
@@ -655,6 +638,7 @@
         <groupId>io.vertx</groupId>
         <artifactId>vertx-client-services</artifactId>
         <version>${stack.version}</version>
+        <type>pom</type>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
