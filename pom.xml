@@ -762,6 +762,11 @@
         <artifactId>vertx-grpc</artifactId>
         <version>${stack.version}</version>
       </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-json-schema</artifactId>
+        <version>${stack.version}</version>
+      </dependency>
 
       <!-- IOT -->
       <dependency>
