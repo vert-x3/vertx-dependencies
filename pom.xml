@@ -377,6 +377,11 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
+        <artifactId>vertx-auth-sql</artifactId>
+        <version>${stack.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
         <artifactId>vertx-web-parent</artifactId>
         <type>pom</type>
         <version>${stack.version}</version>
@@ -451,6 +456,16 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
+        <artifactId>vertx-web-templ-httl</artifactId>
+        <version>${stack.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-web-templ-rocker</artifactId>
+        <version>${stack.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
         <artifactId>vertx-web-templ-freemarker</artifactId>
         <type>test-jar</type>
         <version>${stack.version}</version>
@@ -458,6 +473,13 @@
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-templ-rocker</artifactId>
+        <type>test-jar</type>
+        <version>${stack.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-web-templ-httl</artifactId>
+        <type>test-jar</type>
         <version>${stack.version}</version>
       </dependency>
       <dependency>
@@ -495,6 +517,28 @@
         <artifactId>vertx-web-templ-freemarker</artifactId>
         <version>${stack.version}</version>
         <classifier>shaded</classifier>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-web-templ-rocker</artifactId>
+        <version>${stack.version}</version>
+        <classifier>shaded</classifier>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-web-templ-httl</artifactId>
+        <version>${stack.version}</version>
+        <classifier>shaded</classifier>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-web-sstore-cookie</artifactId>
+        <version>${stack.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-web-sstore-redis</artifactId>
+        <version>${stack.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
@@ -581,11 +625,6 @@
         <groupId>io.vertx</groupId>
         <artifactId>vertx-sql-client</artifactId>
         <type>test-jar</type>
-        <version>${stack.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
-        <artifactId>vertx-sql-client</artifactId>
         <version>${stack.version}</version>
       </dependency>
       <dependency>
