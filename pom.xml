@@ -384,6 +384,12 @@
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web</artifactId>
+        <type>test-jar</type>
+        <version>${stack.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-web</artifactId>
         <classifier>client</classifier>
         <type>js</type>
         <version>${stack.version}</version>
@@ -640,6 +646,12 @@
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-service-discovery</artifactId>
+        <version>${stack.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-service-discovery</artifactId>
+        <type>test-jar</type>
         <version>${stack.version}</version>
       </dependency>
       <dependency>
