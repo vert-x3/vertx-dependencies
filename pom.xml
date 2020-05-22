@@ -28,7 +28,7 @@
 
   <groupId>io.vertx</groupId>
   <artifactId>vertx-dependencies</artifactId>
-  <version>3.7.0-SNAPSHOT</version>
+  <version>3.7.2-SNAPSHOT</version>
 
   <name>Vert.x Stack - Vert.x components versions</name>
   <packaging>pom</packaging>
@@ -47,10 +47,10 @@
   </licenses>
 
   <properties>
-    <stack.version>3.7.0-SNAPSHOT</stack.version>
-    <netty.version>4.1.30.Final</netty.version>
+    <stack.version>3.7.2-SNAPSHOT</stack.version>
+    <netty.version>4.1.34.Final</netty.version>
     <jackson.version>2.9.8</jackson.version>
-    <tcnative.version>2.0.17.Final</tcnative.version>
+    <tcnative.version>2.0.23.Final</tcnative.version>
   </properties>
 
   <dependencyManagement>
@@ -389,6 +389,13 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
+        <artifactId>vertx-web</artifactId>
+        <classifier>client</classifier>
+        <type>js</type>
+        <version>${stack.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
         <artifactId>vertx-web-common</artifactId>
         <version>${stack.version}</version>
       </dependency>
@@ -477,6 +484,11 @@
         <artifactId>vertx-web-templ-freemarker</artifactId>
         <version>${stack.version}</version>
         <classifier>shaded</classifier>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-web-graphql</artifactId>
+        <version>${stack.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
@@ -592,6 +604,11 @@
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-amqp-bridge</artifactId>
+        <version>${stack.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-amqp-client</artifactId>
         <version>${stack.version}</version>
       </dependency>
       <dependency>
