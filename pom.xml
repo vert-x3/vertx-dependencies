@@ -681,6 +681,12 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
+        <artifactId>vertx-service-discovery</artifactId>
+        <type>test-jar</type>
+        <version>${stack.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
         <artifactId>vertx-service-discovery-parent</artifactId>
         <type>pom</type>
         <version>${stack.version}</version>
