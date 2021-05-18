@@ -48,9 +48,9 @@
 
   <properties>
     <stack.version>4.1.0-SNAPSHOT</stack.version>
-    <netty.version>4.1.60.Final</netty.version>
+    <netty.version>4.1.64.Final</netty.version>
     <jackson.version>2.11.3</jackson.version>
-    <tcnative.version>2.0.36.Final</tcnative.version>
+    <tcnative.version>2.0.39.Final</tcnative.version>
   </properties>
 
   <dependencyManagement>
@@ -107,11 +107,6 @@
         <groupId>io.vertx</groupId>
         <artifactId>vertx-core</artifactId>
         <classifier>sources</classifier>
-        <version>${stack.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
-        <artifactId>vertx-codetrans</artifactId>
         <version>${stack.version}</version>
       </dependency>
       <dependency>
