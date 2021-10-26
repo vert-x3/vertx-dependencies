@@ -1,6 +1,6 @@
 # Vertx-dependencies
 
-image:https://github.com/vert-x3/vertx-dependencies/workflows/CI/badge.svg?branch=master["Build Status", link="https://github.com/vert-x3/vertx-dependencies/actions?query=workflow%3ACI"]
+[![CI](https://github.com/vert-x3/vertx-dependencies/actions/workflows/ci.yml/badge.svg)](https://github.com/vert-x3/vertx-dependencies/actions/workflows/ci.yml)
 
 Defines the versions of the Vert.x components of the stack via dependency managements. It defines the versions of the
 Vert.x components in a single central file.
