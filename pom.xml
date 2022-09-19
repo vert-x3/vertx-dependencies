@@ -48,7 +48,7 @@
 
   <properties>
     <stack.version>4.3.4-SNAPSHOT</stack.version>
-    <netty.version>4.1.78.Final</netty.version>
+    <netty.version>4.1.82.Final</netty.version>
     <jackson.version>2.13.2.20220324</jackson.version>
   </properties>
 
