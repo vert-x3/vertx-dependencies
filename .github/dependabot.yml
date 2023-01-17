@@ -1,0 +1,5 @@
+version: 2
+updates:
+  - package-ecosystem: "maven"
+    ignore:
+      - dependency-name: "org.slf4j:slf4j-api"
