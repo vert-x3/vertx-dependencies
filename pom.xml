@@ -26,7 +26,6 @@
     <version>19</version>
   </parent>
 
-  <groupId>io.vertx</groupId>
   <artifactId>vertx-dependencies</artifactId>
   <version>4.4.0-SNAPSHOT</version>
 
