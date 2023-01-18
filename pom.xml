@@ -938,6 +938,13 @@
         <scope>import</scope>
       </dependency>
 
+      <!-- Snake YAML -->
+      <dependency>
+        <groupId>org.yaml</groupId>
+        <artifactId>snakeyaml</artifactId>
+        <version>1.33</version>
+      </dependency>
+
       <!-- SLF4J version -->
       <dependency>
         <groupId>org.slf4j</groupId>
