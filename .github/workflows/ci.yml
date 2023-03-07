@@ -9,6 +9,7 @@ on:
         default: 8
         required: false
         type: string
+    secrets: inherit
 jobs:
   Deploy:
     name: Deploy to OSSRH
