@@ -1,7 +1,7 @@
 name: CI (4.x)
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '0 4 * * *'
 jobs:
   CI-4_x-Java_8:
     uses: ./.github/workflows/ci.yml

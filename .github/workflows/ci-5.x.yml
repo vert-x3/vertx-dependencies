@@ -7,7 +7,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '0 5 * * *'
 jobs:
   CI-5_x-Java_11:
     uses: ./.github/workflows/ci.yml
