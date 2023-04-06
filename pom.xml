@@ -333,12 +333,7 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
-        <artifactId>vertx-auth-jdbc</artifactId>
-        <version>${stack.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
-        <artifactId>vertx-auth-shiro</artifactId>
+        <artifactId>vertx-auth-abac</artifactId>
         <version>${stack.version}</version>
       </dependency>
       <dependency>
