@@ -122,11 +122,6 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
-        <artifactId>vertx-tracing-parent</artifactId>
-        <version>${stack.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
         <artifactId>vertx-zipkin</artifactId>
         <version>${stack.version}</version>
       </dependency>
@@ -154,12 +149,7 @@
         <groupId>io.vertx</groupId>
         <artifactId>vertx-zookeeper</artifactId>
         <version>${stack.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
-        <artifactId>vertx-lang-groovy-parent</artifactId>
-        <version>${stack.version}</version>
-      </dependency>
+      </dependency>    
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-lang-groovy</artifactId>
@@ -167,19 +157,9 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
-        <artifactId>vertx-lang-kotlin-parent</artifactId>
-        <version>${stack.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
         <artifactId>vertx-lang-kotlin</artifactId>
         <version>${stack.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
-        <artifactId>vertx-lang-kotlin-compiler</artifactId>
-        <version>${stack.version}</version>
-      </dependency>
+      </dependency>     
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-lang-kotlin-coroutines</artifactId>
@@ -212,11 +192,6 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
-        <artifactId>vertx-consul</artifactId>
-        <version>${stack.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
         <artifactId>vertx-consul-client</artifactId>
         <version>${stack.version}</version>
       </dependency>
@@ -241,12 +216,7 @@
         <groupId>io.vertx</groupId>
         <artifactId>vertx-cassandra-client</artifactId>
         <version>${stack.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
-        <artifactId>vertx-sql-common</artifactId>
-        <version>${stack.version}</version>
-      </dependency>
+      </dependency>      
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-jdbc-client</artifactId>
@@ -261,13 +231,7 @@
         <groupId>io.vertx</groupId>
         <artifactId>vertx-service-proxy</artifactId>
         <version>${stack.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
-        <artifactId>vertx-service-proxy</artifactId>
-        <classifier>processor</classifier>
-        <version>${stack.version}</version>
-      </dependency>
+      </dependency>    
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-dropwizard-metrics</artifactId>
@@ -319,11 +283,6 @@
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-auth-common</artifactId>
-        <version>${stack.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
-        <artifactId>vertx-jwt</artifactId>
         <version>${stack.version}</version>
       </dependency>
       <dependency>
@@ -648,19 +607,9 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
-        <artifactId>vertx-infinispan-parent</artifactId>
-        <version>${stack.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
         <artifactId>vertx-infinispan</artifactId>
         <version>${stack.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
-        <artifactId>vertx-sql-client-parent</artifactId>
-        <version>${stack.version}</version>
-      </dependency>
+      </dependency>      
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-sql-client</artifactId>
@@ -854,19 +803,9 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
-        <artifactId>vertx-grpc-parent</artifactId>
-        <version>${stack.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
         <artifactId>vertx-grpc</artifactId>
         <version>${stack.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
-        <artifactId>vertx-grpc-aggregator</artifactId>
-        <version>${stack.version}</version>
-      </dependency>
+      </dependency>    
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-grpc-common</artifactId>
