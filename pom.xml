@@ -117,12 +117,12 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
-        <artifactId>vertx-legacy-cli</artifactId>
+        <artifactId>vertx-launcher-legacy-cli</artifactId>
         <version>${stack.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
-        <artifactId>vertx-application-launcher</artifactId>
+        <artifactId>vertx-launcher-application</artifactId>
         <version>${stack.version}</version>
       </dependency>
       <dependency>
