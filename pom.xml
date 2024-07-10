@@ -46,7 +46,6 @@
   </licenses>
 
   <properties>
-    <stack.version>5.0.0-SNAPSHOT</stack.version>
     <netty.version>4.2.0.Alpha2</netty.version>
     <jackson.version>2.16.1</jackson.version>
     <slf4j.version>2.0.7</slf4j.version>
@@ -58,58 +57,58 @@
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-codegen-parent</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-codegen-api</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-codegen-processor</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-codegen-processor</artifactId>
         <type>jar</type>
         <classifier>tck</classifier>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-codegen-processor</artifactId>
         <type>jar</type>
         <classifier>tck-sources</classifier>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-codegen-processor</artifactId>
         <type>test-jar</type>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-codegen-json</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-codegen-protobuf</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-codegen</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-codegen</artifactId>
         <classifier>processor</classifier>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
@@ -118,798 +117,808 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
+        <artifactId>vertx-core-aggregator</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-core-logging</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
         <artifactId>vertx-core</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-core</artifactId>
         <classifier>sources</classifier>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-core</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
         <type>test-jar</type>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-service-resolver</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-launcher-parent</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-launcher-legacy-cli</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-launcher-application</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-uri-template</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-tracing-parent</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-zipkin</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-opentracing</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-opentelemetry</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-openapi</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-hazelcast</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-zookeeper</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-lang-groovy</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-lang-kotlin-parent</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-lang-kotlin</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-lang-kotlin-coroutines</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-unit</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-junit5</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-junit5-rx-java</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-junit5-rx-java2</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-junit5-rx-java3</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-consul-client</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-consul-client</artifactId>
         <type>test-jar</type>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-mongo-client</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-mongo-client</artifactId>
         <type>test-jar</type>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-cassandra-client</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-jdbc-client</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-reactive-streams</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-service-proxy</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-dropwizard-metrics</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-micrometer-metrics</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-health-check</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-rx</artifactId>
         <type>pom</type>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-rx-java</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-rx-java2</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-rx-java3</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-auth</artifactId>
         <type>pom</type>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-auth-parent</artifactId>
         <type>pom</type>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-auth-common</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-auth-htdigest</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-auth-abac</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-auth-properties</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-auth-ldap</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-auth-oauth2</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-auth-webauthn</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-auth-jwt</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-auth-mongo</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-auth-htpasswd</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-auth-otp</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-auth-sql-client</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-parent</artifactId>
         <type>pom</type>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web</artifactId>
         <type>test-jar</type>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web</artifactId>
         <classifier>client</classifier>
         <type>js</type>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-common</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-client</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-api-contract</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-api-service</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-openapi-router</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-templ-thymeleaf</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-templ-handlebars</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-templ-pug</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-templ-mvel</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-templ-pebble</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-templ-freemarker</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-templ-jte</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-templ-httl</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-templ-rocker</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-templ-rythm</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-templ-freemarker</artifactId>
         <type>test-jar</type>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-templ-jte</artifactId>
         <type>test-jar</type>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-templ-rocker</artifactId>
         <type>test-jar</type>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-templ-httl</artifactId>
         <type>test-jar</type>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-templ-rythm</artifactId>
         <type>test-jar</type>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-templ-thymeleaf</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
         <classifier>shaded</classifier>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-templ-handlebars</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
         <classifier>shaded</classifier>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-templ-pug</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
         <classifier>shaded</classifier>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-templ-mvel</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
         <classifier>shaded</classifier>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-templ-pebble</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
         <classifier>shaded</classifier>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-templ-freemarker</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
         <classifier>shaded</classifier>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-templ-jte</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
         <classifier>shaded</classifier>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-templ-rocker</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
         <classifier>shaded</classifier>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-templ-httl</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
         <classifier>shaded</classifier>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-templ-rythm</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
         <classifier>shaded</classifier>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-sstore-cookie</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-sstore-redis</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-sstore-infinispan</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-graphql</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-validation</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web-proxy</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-sockjs-service-proxy</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-mail-client</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-mail-client</artifactId>
         <type>test-jar</type>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-redis-client</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-stomp</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-shell</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-tcp-eventbus-bridge</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-bridge-common</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-infinispan-parent</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-infinispan</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-sql-client-parent</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-sql-client</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-sql-client</artifactId>
         <type>test-jar</type>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-pg-client</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-mysql-client</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-db2-client</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-mssql-client</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-oracle-client</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-sql-client-templates</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-camel-bridge</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-ignite</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-rabbitmq-client</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-proton</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-amqp-client</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-kafka-client</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
 
       <!-- microservices -->
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-circuit-breaker</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-service-discovery</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-service-discovery</artifactId>
         <type>test-jar</type>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-service-discovery-parent</artifactId>
         <type>pom</type>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-service-discovery-bridge-kubernetes</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-service-discovery-bridge-docker</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-service-discovery-bridge-docker-links</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-service-discovery-bridge-consul</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-service-discovery-bridge-zookeeper</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-service-discovery-backend-redis</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-service-discovery-backend-zookeeper</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-service-discovery-backend-consul</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-config-parent</artifactId>
         <type>pom</type>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-config</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-config-git</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-config-hocon</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-config-kubernetes-configmap</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-config-redis</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-config-spring-config-server</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-config-yaml</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-config-zookeeper</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-config-vault</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-config-consul</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-grpc-parent</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-grpc</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-grpc-aggregator</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-grpc-common</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-grpc-client</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-grpc-server</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-grpc-context-storage</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-json-schema</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-http-proxy</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-io_uring-incubator</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
 
       <!-- IOT -->
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-mqtt</artifactId>
-        <version>${stack.version}</version>
+        <version>${project.version}</version>
       </dependency>
 
       <!-- Netty + TC Native -->
