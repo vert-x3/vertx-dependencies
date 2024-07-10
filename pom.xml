@@ -135,6 +135,16 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
+        <artifactId>vertx-core-aggregator</artifactId>
+        <version>${stack.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-core-logging</artifactId>
+        <version>${stack.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
         <artifactId>vertx-service-resolver</artifactId>
         <version>${stack.version}</version>
       </dependency>
