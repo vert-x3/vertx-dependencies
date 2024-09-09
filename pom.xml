@@ -120,12 +120,18 @@
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-docgen-api</artifactId>
-        <version>0.9.5</version>
+        <version>0.9.6</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-docgen-processor</artifactId>
-        <version>0.9.5</version>
+        <version>0.9.6</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-docgen-processor</artifactId>
+        <classifier>processor</classifier>
+        <version>0.9.6</version>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
