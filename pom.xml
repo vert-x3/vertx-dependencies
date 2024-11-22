@@ -971,7 +971,7 @@
         <groupId>io.netty</groupId>
         <artifactId>netty-codec</artifactId>
         <version>${netty.version}</version>
-        <!-- Make sure we do not depend onto those jars, because they depend on protobuf/marshalling jars we do not need -->
+        <!-- Make sure we don't depend on those jars, because they depend on protobuf/marshalling jars we do not need -->
         <exclusions>
           <exclusion>
             <groupId>io.netty</groupId>
@@ -983,7 +983,22 @@
           </exclusion>
         </exclusions>
       </dependency>
-      
+      <dependency>
+        <groupId>io.netty</groupId>
+        <artifactId>netty-handler</artifactId>
+        <version>${netty.version}</version>
+        <!-- Make sure we don't depend on those jars, because they depend on protobuf/marshalling jars we do not need -->
+        <exclusions>
+          <exclusion>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-codec-protobuf</artifactId>
+          </exclusion>
+          <exclusion>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-codec-marshalling</artifactId>
+          </exclusion>
+        </exclusions>
+      </dependency>
 
       <!-- jackson -->
       <dependency>
