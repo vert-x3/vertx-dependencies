@@ -949,6 +949,21 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
+        <artifactId>vertx-grpc-reflection</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-grpc-health</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-grpc-transcoding</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
         <artifactId>vertx-json-schema</artifactId>
         <version>${project.version}</version>
       </dependency>
