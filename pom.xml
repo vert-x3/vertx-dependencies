@@ -29,7 +29,7 @@
   <artifactId>vertx-dependencies</artifactId>
   <version>4.5.16-SNAPSHOT</version>
 
-  <name>Vert.x Stack - Vert.x components versions</name>
+  <name>Vert.x components versions</name>
 
   <scm>
     <connection>scm:git:git@github.com:vert-x3/vertx-dependencies.git</connection>
