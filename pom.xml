@@ -1050,6 +1050,24 @@
         <groupId>com.google.guava</groupId>
         <artifactId>guava</artifactId>
         <version>32.1.2-jre</version>
+        <exclusions>
+          <exclusion>
+            <groupId>com.google.errorprone</groupId>
+            <artifactId>error_prone_annotations</artifactId>
+          </exclusion>
+        </exclusions>
+      </dependency>
+
+      <!--
+      com.google.errorprone:error_prone_annotations is used in several Google projects (e.g. Guava, Protobuf Java utils).
+      It's also used by Caffeine.
+      Setting a common version here makes it easy to deal with dependency convergence.
+      -->
+
+      <dependency>
+        <groupId>com.google.errorprone</groupId>
+        <artifactId>error_prone_annotations</artifactId>
+        <version>2.38.0</version>
       </dependency>
 
       <!-- Snake YAML -->
