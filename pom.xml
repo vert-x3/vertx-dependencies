@@ -163,11 +163,6 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
-        <artifactId>vertx-lang-groovy-parent</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
         <artifactId>vertx-lang-groovy</artifactId>
         <version>${project.version}</version>
       </dependency>
@@ -179,11 +174,6 @@
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-lang-kotlin</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
-        <artifactId>vertx-lang-kotlin-compiler</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
@@ -218,11 +208,6 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
-        <artifactId>vertx-consul</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
         <artifactId>vertx-consul-client</artifactId>
         <version>${project.version}</version>
       </dependency>
@@ -250,11 +235,6 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
-        <artifactId>vertx-sql-common</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
         <artifactId>vertx-jdbc-client</artifactId>
         <version>${project.version}</version>
       </dependency>
@@ -270,18 +250,7 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
-        <artifactId>vertx-service-proxy</artifactId>
-        <classifier>processor</classifier>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
         <artifactId>vertx-service-factory</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
-        <artifactId>vertx-maven-service-factory-parent</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
@@ -345,11 +314,6 @@
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-auth-common</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
-        <artifactId>vertx-jwt</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
@@ -427,13 +391,6 @@
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web</artifactId>
         <type>test-jar</type>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
-        <artifactId>vertx-web</artifactId>
-        <classifier>client</classifier>
-        <type>js</type>
         <version>${project.version}</version>
       </dependency>
       <dependency>
@@ -659,11 +616,6 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
-        <artifactId>vertx-sync</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
         <artifactId>vertx-stomp</artifactId>
         <version>${project.version}</version>
       </dependency>
@@ -680,11 +632,6 @@
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-bridge-common</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.vertx</groupId>
-        <artifactId>vertx-jgroups</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
