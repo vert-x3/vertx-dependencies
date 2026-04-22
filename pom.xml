@@ -1052,7 +1052,7 @@
       <dependency>
         <groupId>com.google.guava</groupId>
         <artifactId>guava</artifactId>
-        <version>32.1.2-jre</version>
+        <version>33.6.0-jre</version>
         <exclusions>
           <exclusion>
             <groupId>com.google.errorprone</groupId>
