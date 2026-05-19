@@ -12,9 +12,9 @@ jobs:
       branch: ${{ inputs.branch }}
       jdk: 11
     secrets: inherit
-  CI-5_x-Java_17:
+  CI-5_x-Java_25:
     uses: ./.github/workflows/ci.yml
     with:
       branch: ${{ inputs.branch }}
-      jdk: 17
+      jdk: 25
     secrets: inherit
