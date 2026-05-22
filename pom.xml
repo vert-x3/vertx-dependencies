@@ -54,10 +54,12 @@
 
   <properties>
     <netty.version>4.2.14.Final</netty.version>
-    <jackson2.version>2.21.2</jackson2.version>
-    <jackson3.version>3.1.2</jackson3.version>
     <slf4j.version>2.0.7</slf4j.version>
     <log4j2.version>2.17.1</log4j2.version>
+
+    <!-- Jackson LTS : https://github.com/FasterXML/jackson/wiki/Jackson-Releases -->
+    <jackson2.version>2.21.3</jackson2.version>
+    <jackson3.version>3.1.3</jackson3.version>
   </properties>
 
   <dependencyManagement>
