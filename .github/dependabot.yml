@@ -4,9 +4,10 @@ updates:
     directory: "/"
     schedule:
       interval: daily
+    allow:
+      - dependency-name: "com.fasterxml.jackson:jackson-bom"
+      - dependency-name: "tools.jackson:jackson-bom"
     ignore:
-      - dependency-name: "org.slf4j:*"
-      - dependency-name: "org.apache.logging.log4j:*"
       # Jackson 2 LTS: allow only 2.21.x patches
       - dependency-name: "com.fasterxml.jackson:jackson-bom"
         update-types: ["version-update:semver-major", "version-update:semver-minor"]
@@ -18,9 +19,10 @@ updates:
     target-branch: "5.1"
     schedule:
       interval: daily
+    allow:
+      - dependency-name: "com.fasterxml.jackson:jackson-bom"
+      - dependency-name: "tools.jackson:jackson-bom"
     ignore:
-      - dependency-name: "org.slf4j:*"
-      - dependency-name: "org.apache.logging.log4j:*"
       # Jackson 2 LTS: allow only 2.21.x patches
       - dependency-name: "com.fasterxml.jackson:jackson-bom"
         update-types: ["version-update:semver-major", "version-update:semver-minor"]
