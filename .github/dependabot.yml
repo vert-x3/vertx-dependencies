@@ -13,3 +13,17 @@ updates:
       # Jackson 3 LTS: allow only 3.1.x patches
       - dependency-name: "tools.jackson:jackson-bom"
         update-types: ["version-update:semver-major", "version-update:semver-minor"]
+  - package-ecosystem: "maven"
+    directory: "/"
+    target-branch: "5.1"
+    schedule:
+      interval: daily
+    ignore:
+      - dependency-name: "org.slf4j:*"
+      - dependency-name: "org.apache.logging.log4j:*"
+      # Jackson 2 LTS: allow only 2.21.x patches
+      - dependency-name: "com.fasterxml.jackson:jackson-bom"
+        update-types: ["version-update:semver-major", "version-update:semver-minor"]
+      # Jackson 3 LTS: allow only 3.1.x patches
+      - dependency-name: "tools.jackson:jackson-bom"
+        update-types: ["version-update:semver-major", "version-update:semver-minor"]
