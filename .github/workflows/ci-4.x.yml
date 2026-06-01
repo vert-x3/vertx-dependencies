@@ -3,15 +3,9 @@ on:
   schedule:
     - cron: '0 4 * * *'
 jobs:
-  CI-4_x-Java_8:
+  CI-CD:
     uses: ./.github/workflows/ci.yml
     with:
       branch: 4.x
       jdk: 8
-    secrets: inherit
-  CI-4_x-Java_17:
-    uses: ./.github/workflows/ci.yml
-    with:
-      branch: 4.x
-      jdk: 17
     secrets: inherit
