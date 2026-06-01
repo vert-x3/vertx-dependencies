@@ -14,6 +14,9 @@ updates:
       # Jackson 3 LTS: allow only 3.1.x patches
       - dependency-name: "tools.jackson:jackson-bom"
         update-types: ["version-update:semver-major", "version-update:semver-minor"]
+      - dependency-name: "com.google.errorprone:error_prone_annotations"
+      - dependency-name: "org.yaml:snakeyaml"
+      - dependency-name: "com.google.guava:guava"
   - package-ecosystem: "maven"
     directory: "/"
     target-branch: "5.1"
@@ -29,6 +32,9 @@ updates:
       # Jackson 3 LTS: allow only 3.1.x patches
       - dependency-name: "tools.jackson:jackson-bom"
         update-types: ["version-update:semver-major", "version-update:semver-minor"]
+      - dependency-name: "com.google.errorprone:error_prone_annotations"
+      - dependency-name: "org.yaml:snakeyaml"
+      - dependency-name: "com.google.guava:guava"
   - package-ecosystem: "maven"
     directory: "/"
     target-branch: "5.0"
@@ -40,6 +46,9 @@ updates:
       # Jackson 2 LTS: allow only 2.21.x patches
       - dependency-name: "com.fasterxml.jackson:jackson-bom"
         update-types: ["version-update:semver-major", "version-update:semver-minor"]
+      - dependency-name: "com.google.errorprone:error_prone_annotations"
+      - dependency-name: "org.yaml:snakeyaml"
+      - dependency-name: "com.google.guava:guava"
   - package-ecosystem: "maven"
     directory: "/"
     target-branch: "4.x"
@@ -51,3 +60,6 @@ updates:
       # Jackson 2 LTS: allow only 2.21.x patches
       - dependency-name: "com.fasterxml.jackson:jackson-bom"
         update-types: ["version-update:semver-major", "version-update:semver-minor"]
+      - dependency-name: "com.google.errorprone:error_prone_annotations"
+      - dependency-name: "org.yaml:snakeyaml"
+      - dependency-name: "com.google.guava:guava"
