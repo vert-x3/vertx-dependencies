@@ -58,7 +58,7 @@
     <log4j2.version>2.17.1</log4j2.version>
 
     <!-- Jackson LTS : https://github.com/FasterXML/jackson/wiki/Jackson-Releases -->
-    <jackson2.version>2.21.3</jackson2.version>
+    <jackson2.version>2.21.4</jackson2.version>
     <jackson3.version>3.1.3</jackson3.version>
   </properties>
 
