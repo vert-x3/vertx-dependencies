@@ -29,3 +29,25 @@ updates:
       # Jackson 3 LTS: allow only 3.1.x patches
       - dependency-name: "tools.jackson:jackson-bom"
         update-types: ["version-update:semver-major", "version-update:semver-minor"]
+  - package-ecosystem: "maven"
+    directory: "/"
+    target-branch: "5.0"
+    schedule:
+      interval: daily
+    allow:
+      - dependency-name: "com.fasterxml.jackson:jackson-bom"
+    ignore:
+      # Jackson 2 LTS: allow only 2.21.x patches
+      - dependency-name: "com.fasterxml.jackson:jackson-bom"
+        update-types: ["version-update:semver-major", "version-update:semver-minor"]
+  - package-ecosystem: "maven"
+    directory: "/"
+    target-branch: "4.x"
+    schedule:
+      interval: daily
+    allow:
+      - dependency-name: "com.fasterxml.jackson:jackson-bom"
+    ignore:
+      # Jackson 2 LTS: allow only 2.21.x patches
+      - dependency-name: "com.fasterxml.jackson:jackson-bom"
+        update-types: ["version-update:semver-major", "version-update:semver-minor"]
