@@ -7,12 +7,16 @@ updates:
     allow:
       - dependency-name: "com.fasterxml.jackson:jackson-bom"
       - dependency-name: "tools.jackson:jackson-bom"
+      - dependency-name: "io.netty:netty-bom"
     ignore:
       # Jackson 2 LTS: allow only 2.21.x patches
       - dependency-name: "com.fasterxml.jackson:jackson-bom"
         update-types: ["version-update:semver-major", "version-update:semver-minor"]
       # Jackson 3 LTS: allow only 3.1.x patches
       - dependency-name: "tools.jackson:jackson-bom"
+        update-types: ["version-update:semver-major", "version-update:semver-minor"]
+      # Netty: allow only patch updates
+      - dependency-name: "io.netty:netty-bom"
         update-types: ["version-update:semver-major", "version-update:semver-minor"]
       - dependency-name: "com.google.errorprone:error_prone_annotations"
       - dependency-name: "org.yaml:snakeyaml"
@@ -25,12 +29,16 @@ updates:
     allow:
       - dependency-name: "com.fasterxml.jackson:jackson-bom"
       - dependency-name: "tools.jackson:jackson-bom"
+      - dependency-name: "io.netty:netty-bom"
     ignore:
       # Jackson 2 LTS: allow only 2.21.x patches
       - dependency-name: "com.fasterxml.jackson:jackson-bom"
         update-types: ["version-update:semver-major", "version-update:semver-minor"]
       # Jackson 3 LTS: allow only 3.1.x patches
       - dependency-name: "tools.jackson:jackson-bom"
+        update-types: ["version-update:semver-major", "version-update:semver-minor"]
+      # Netty: allow only patch updates
+      - dependency-name: "io.netty:netty-bom"
         update-types: ["version-update:semver-major", "version-update:semver-minor"]
       - dependency-name: "com.google.errorprone:error_prone_annotations"
       - dependency-name: "org.yaml:snakeyaml"
@@ -42,9 +50,13 @@ updates:
       interval: daily
     allow:
       - dependency-name: "com.fasterxml.jackson:jackson-bom"
+      - dependency-name: "io.netty:netty-bom"
     ignore:
       # Jackson 2 LTS: allow only 2.21.x patches
       - dependency-name: "com.fasterxml.jackson:jackson-bom"
+        update-types: ["version-update:semver-major", "version-update:semver-minor"]
+      # Netty: allow only patch updates
+      - dependency-name: "io.netty:netty-bom"
         update-types: ["version-update:semver-major", "version-update:semver-minor"]
       - dependency-name: "com.google.errorprone:error_prone_annotations"
       - dependency-name: "org.yaml:snakeyaml"
@@ -56,9 +68,13 @@ updates:
       interval: daily
     allow:
       - dependency-name: "com.fasterxml.jackson:jackson-bom"
+      - dependency-name: "io.netty:netty-bom"
     ignore:
       # Jackson 2 LTS: allow only 2.21.x patches
       - dependency-name: "com.fasterxml.jackson:jackson-bom"
+        update-types: ["version-update:semver-major", "version-update:semver-minor"]
+      # Netty: allow only patch updates
+      - dependency-name: "io.netty:netty-bom"
         update-types: ["version-update:semver-major", "version-update:semver-minor"]
       - dependency-name: "com.google.errorprone:error_prone_annotations"
       - dependency-name: "org.yaml:snakeyaml"
