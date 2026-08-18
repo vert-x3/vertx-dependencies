@@ -61,7 +61,7 @@
     <jackson2.version>2.21.5</jackson2.version>
 
     <!-- Jackson LTS : https://github.com/FasterXML/jackson/wiki/Jackson-Releases -->
-    <jackson3.version>3.1.5</jackson3.version>
+    <jackson3.version>3.1.6</jackson3.version>
   </properties>
 
   <dependencyManagement>
