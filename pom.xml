@@ -1071,8 +1071,7 @@
       </dependency>
 
       <!--
-      com.google.errorprone:error_prone_annotations is used in several Google projects (e.g. Guava, Protobuf Java utils).
-      It's also used by Caffeine.
+      com.google.errorprone:error_prone_annotations is used in several projects (e.g. Guava, Protobuf Java utils, Caffeine).
       Setting a common version here makes it easy to deal with dependency convergence.
       -->
 
@@ -1080,6 +1079,17 @@
         <groupId>com.google.errorprone</groupId>
         <artifactId>error_prone_annotations</artifactId>
         <version>2.38.0</version>
+      </dependency>
+
+      <!--
+      org.jspecify:jspecify is used in several projects (e.g. Caffeine, Micrometer).
+      Setting a common version here makes it easy to deal with dependency convergence.
+      -->
+
+      <dependency>
+        <groupId>org.jspecify</groupId>
+        <artifactId>jspecify</artifactId>
+        <version>1.0.1</version>
       </dependency>
 
       <!-- Snake YAML -->
