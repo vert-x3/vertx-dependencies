@@ -24,6 +24,7 @@ jobs:
         uses: actions/setup-java@v5
         with:
           java-version: ${{ inputs.jdk }}
+          distribution: temurin
       - name: Get project version
         run: echo "PROJECT_VERSION=$(mvn org.apache.maven.plugins:maven-help-plugin:evaluate -Dexpression=project.version -B | grep -v '\[')" >> $GITHUB_ENV
       - name: Maven deploy
