@@ -21,7 +21,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
       - name: Install JDK
-        uses: joschi/setup-jdk@v2
+        uses: joschi/setup-jdk@v5
         with:
           java-version: ${{ inputs.jdk }}
       - name: Get project version
