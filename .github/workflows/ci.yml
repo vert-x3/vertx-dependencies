@@ -20,6 +20,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+        with:
+          ref: ${{ inputs.branch }}
       - name: Install JDK
         uses: actions/setup-java@v5
         with:
